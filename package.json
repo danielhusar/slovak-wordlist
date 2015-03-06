@@ -1,6 +1,6 @@
 {
   "name": "slovak-wordlist",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "List of the slovak words",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,12 @@
   },
   "files": [
     "index.js"
+  ],
+  "keywords": [
+    "slovak",
+    "words",
+    "diakritika",
+    "diacritics"
   ],
   "repository": {
     "type": "git",
