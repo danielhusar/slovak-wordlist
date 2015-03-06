@@ -1,0 +1,28 @@
+{
+  "name": "slovak-wordlist",
+  "version": "0.1.0",
+  "description": "List of the slovak words",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielhusar/slovak-wordlist"
+  },
+  "author": "Daniel Husar <dano.husar@gmail.com> (https://github.com/danielhusar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielhusar/slovak-wordlist/issues"
+  },
+  "homepage": "https://github.com/danielhusar/slovak-wordlist",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
