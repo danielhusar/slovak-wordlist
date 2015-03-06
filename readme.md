@@ -11,7 +11,7 @@ $ npm install --save slovak-wordlist
 
 ## Data
 
-Name and occurency is separated by space.
+Name and occurency is separated by space and entries by new line.
 ```
 a 824912
 v 790766
@@ -34,6 +34,15 @@ slovakWordlist().on('data', function (data) {
   console.log(data.toString());
 });
 ```
+
+## API
+
+#### opts
+
+Type: `Object`  
+Default: `undefined`
+
+fs.createReadStream [options](http://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
 
 
 ## License
