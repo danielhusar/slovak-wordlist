@@ -2,6 +2,4 @@
 
 var fs = require('fs');
 
-module.exports = function (opts) {
-  return fs.createReadStream('sk.txt', opts);
-};
+module.exports = fs.createReadStream.bind(fs, 'sk.txt');

@@ -4,7 +4,7 @@ var assert = require('assert');
 var slovakWordlist = require('./');
 
 it('Should return word list', function (cb) {
-  slovakWordlist({start: 0, end: 500}).on('data', function (data) {
+  slovakWordlist({start: 0, end: 100}).on('data', function (data) {
     data = data.toString().split('\n');
     assert.equal(data[0], 'a 824912');
     assert.equal(data[1], 'v 790766');
