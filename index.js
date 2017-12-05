@@ -1,2 +1,2 @@
 const fs = require('fs');
-module.exports = () => fs.createReadStream('./sk.txt');
+module.exports = (opts) => fs.createReadStream('./sk.txt', opts);
