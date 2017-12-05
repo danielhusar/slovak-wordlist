@@ -1,13 +1,13 @@
 {
   "name": "slovak-wordlist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "List of the slovak words",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.0.0"
   },
   "files": [
     "index.js"
